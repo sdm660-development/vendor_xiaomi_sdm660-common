@@ -838,3 +838,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sdm660-common/proprietary/vendor/lib64/hw/consumerir.lirc.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.lirc.sdm660.so \
     vendor/xiaomi/sdm660-common/proprietary/vendor/lib64/hw/consumerir.spi.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.spi.sdm660.so
 endif
+
+PRODUCT_PACKAGES += \
+    libimscamera_jni_libimscamera_jni_symlink64 \
+    libimsmedia_jni_libimsmedia_jni_symlink64
